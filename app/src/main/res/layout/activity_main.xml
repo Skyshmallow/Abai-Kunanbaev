@@ -12,6 +12,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/custom_button"
+        android:onClick="OnShigarmashiligiClick"
         android:text="Шығармашылығы"
         android:textAllCaps="false"
         android:textColor="@color/white"
@@ -27,6 +28,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/custom_button"
+        android:onClick="OnKaraSozderiClick"
         android:text="Қара сөздері"
         android:textAllCaps="false"
         android:textColor="@color/white"
@@ -42,6 +44,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/custom_button"
+        android:onClick="OnOmirBaianClick"
         android:text="Өмір баяны"
         android:textAllCaps="false"
         android:textColor="@color/white"
@@ -101,6 +104,7 @@
                 app:layout_constraintEnd_toEndOf="@+id/textView3"
                 app:layout_constraintStart_toStartOf="@+id/textView3"
                 app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
@@ -178,6 +182,26 @@
             app:layout_constraintHorizontal_bias="0.58"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="100dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView10"
+            app:layout_constraintStart_toEndOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="1dp"
+            android:layout_height="100dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView8"
+            app:layout_constraintStart_toEndOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
